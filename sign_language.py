@@ -25,10 +25,10 @@ while True:
 
                
             if  lm_list[4].y < lm_list[1].y:
-                cv2.putText(img,"Me gusta",(20,30),cv2.FONT_HERSHEY_COMPLEX,1,(255,0,0),2)
+                cv2.putText(img,"Me gusta",(20,30),cv2.FONT_HERSHEY_COMPLEX,1,(0,255,0),2)
                 print("Me gusta")
             elif  lm_list[4].y > lm_list[1].y:
-                cv2.putText(img,"No me gusta",(20,30),cv2.FONT_HERSHEY_COMPLEX,1,(255,0,0),2)
+                cv2.putText(img,"No me gusta",(20,30),cv2.FONT_HERSHEY_COMPLEX,1,(0,0,255),2)
                 print("No me gusta")
 
                 
